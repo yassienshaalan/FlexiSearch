@@ -1,5 +1,6 @@
 # FlexiSearch
 This repository hosts a prototype of a scalable, general-purpose search engine, showcasing an advanced architecture that addresses common scalability challenges in search systems. The project is based on a segment-replication model and is designed to efficiently handle both indexing and searching operations, making it suitable for handling large volumes of data and high query loads.
+This search engine prototype leverages vector search to enhance search capabilities, enabling more nuanced and semantically relevant search results. Vector search uses machine learning models to convert text into high-dimensional vectors that represent semantic meanings, allowing for searches based on conceptual similarity rather than keyword matching alone.
 
 ## Key Features:
 
@@ -20,3 +21,8 @@ A modern programming language and framework for developing the services, ensurin
 This prototype serves as an educational tool and a starting point for developers looking to understand or build their own search engine systems. It demonstrates how to tackle common challenges in search engine architecture, such as scalability, efficiency, and flexibility, while also providing insights into advanced features like query understanding and planning."
 
 This description provides a comprehensive overview of the project, highlighting its purpose, key features, architecture, and the technologies used, without attributing the architecture to a specific source. It sets the stage for potential contributors or learners to understand what the project is about, how it's structured, and what technologies it leverages.
+
+
+
+## Integration with Marqo
+We've integrated Marqo, a tensor search engine, to provide powerful vector search functionalities. Marqo allows us to index our documents as vectors and perform similarity searches, making our search results more relevant and context-aware.
