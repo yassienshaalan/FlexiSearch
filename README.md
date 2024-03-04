@@ -1,6 +1,6 @@
 # FlexiSearch
 This repository hosts a prototype of a scalable, general-purpose search engine, showcasing an advanced architecture that addresses common scalability challenges in search systems. The project is based on a segment-replication model and is designed to efficiently handle both indexing and searching operations, making it suitable for handling large volumes of data and high query loads.
-This search engine prototype leverages vector search to enhance search capabilities, enabling more nuanced and semantically relevant search results. Vector search uses machine learning models to convert text into high-dimensional vectors that represent semantic meanings, allowing for searches based on conceptual similarity rather than keyword matching alone.
+This search engine prototype leverages vector search to enhance search capabilities, enabling more nuanced and semantically relevant search results. Vector search uses machine learning models to convert text into high-dimensional vectors that represent semantic meanings, allowing for searches based on conceptual similarity rather than keyword matching alone. This is repo is inspired by DoorDash's inhouse search engine here:https://doordash.engineering/2024/02/27/introducing-doordashs-in-house-search-engine/amp/
 
 ## Key Features:
 
